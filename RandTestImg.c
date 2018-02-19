@@ -46,7 +46,7 @@ static int save_png_to_file (bitmap_t *bitmap, const char *path){
         //default status is failure
         int status = -1; 
 
-        int pixel_size = 3; //trail and error
+        int pixel_size = 3; //trial and error
         int depth = 8;
 
         fp = fopen (path, "wb");
